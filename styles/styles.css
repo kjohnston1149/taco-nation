@@ -1,3 +1,26 @@
 h1 {
   color: red;
 }
+
+th {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+td:first-child {
+  float: left;
+
+}
+
+td:nth-child(2) {
+  float: right;
+}
+
+#side-imgs img {
+  height: 300px;
+  width: auto;
+}

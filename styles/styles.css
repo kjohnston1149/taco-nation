@@ -34,6 +34,7 @@ table {
   border-collapse: collapse;
   background-color: #A41000;
   color: white;
+  box-shadow: 17px 23px 48px -15px rgba(0,0,0,0.54);
 
 }
 
@@ -73,10 +74,9 @@ hr {
   display: block;
   overflow: hidden;
   text-align: center;
-
   color: #A41000;
   font-family: 'Frijole', cursive;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #main-ad {
@@ -88,8 +88,8 @@ hr {
   top: 5%;
   left: 23%;
   width: 18%;
-  font-size: 2.5em;
-  color: white; 
+  font-size: 3em;
+  color: white;
 }
 
 #main-ad h2::after {
@@ -123,6 +123,8 @@ hr {
   margin-left: 10px;
   text-align: center;
 }
+
+
 
 #side-imgs {
   width: 45%;

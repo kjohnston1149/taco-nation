@@ -14,7 +14,8 @@ _This page uses CSS stylings learned in the first week of the Epicodus CSS cours
   * https://github.com/kjohnston1149/pizzaOrder
 2. Move into the project folder
 3. Open index.html in the browser of your choice (we suggest Chrome)
-4. Alternative, if using Atom, run "$ apm install atom-live-server" in the command line and launch a live local server by using the short cut "ctrl-shift-3".  For more information, visit https://atom.io/packages/atom-live-server.
+4. Alternatively, if using Atom, run "$ apm install atom-live-server" in the command line and launch a live local server by using the short cut "ctrl-shift-3".  For more information, visit https://atom.io/packages/atom-live-server.
+5. View on Github Pages: https://kjohnston1149.github.io/taco-nation/
 
 ## Known Bugs
 

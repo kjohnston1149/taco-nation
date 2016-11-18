@@ -9,49 +9,74 @@
 body {
 background-image: radial-gradient(51% 156%, #FCC04C 57%, #F78C25 100%);
 background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  z-index: 1;
+}
+
+nav a {
+  margin-left: 15px;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 table {
-  width: 15%;
+  width: 18%;
   height: auto;
   border-radius: 5px;
   border-collapse: collapse;
   background-color: #A41000;
   color: white;
+
 }
 
 th {
   font-weight: bolder;
   font-size: 1.5em;
   float: left;
+  padding-left: 5px;
 
 }
 
 tr {
   border-bottom: solid 5px rgba(255,255,255,0.2);
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 
 td:first-child {
   float: left;
   font-weight: bold;
+  padding-left: 5px;
 
 }
 
 td:nth-child(2) {
   float: right;
+  padding-right: 5px;
+}
+
+hr {
+  border-color: #A45000;
+  opacity: 0.2;
 }
 
 #header {
   position: relative;
+  top: -3px;
   display: block;
   overflow: hidden;
   text-align: center;
-  padding:5px 10px;
+
   color: #A41000;
-  font-family: 'Shojumaru', cursive;
+  font-family: 'Frijole', cursive;
+  font-size: 2em;
 }
 
 #main-ad {
@@ -62,7 +87,8 @@ td:nth-child(2) {
   position: absolute;
   top: 20%;
   left: 25%;
-  width: 8%;
+  width: 15%;
+  font-size: 2em;
 }
 
 #main-ad h2::after {
@@ -76,7 +102,7 @@ td:nth-child(2) {
 
 #main-ad table {
   position: absolute;
-  left: 75%;
+  left: 70%;
   top: 30%;
   z-index: 1;
   display: none;
@@ -89,18 +115,21 @@ td:nth-child(2) {
 #product-description {
   width: 45%;
   float: left;
-  margin-left: 10px
+  margin-left: 10px;
+  text-align: center;
 }
 
 #side-imgs {
   width: 45%;
   float: right;
-  margin-right: 10px
+  margin-right: 10px;
+  text-align: center;
 }
 
 #side-imgs img {
   height: 200px;
-  width: auto;
+  display: block;
+  width: 200px;
   float: left;
   margin: 10px;
   border-radius: 25%;

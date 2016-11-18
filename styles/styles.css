@@ -6,25 +6,31 @@
             box-sizing: border-box;
 }
 
-h1 {
-  color: red;
+body {
+background-image: radial-gradient(51% 156%, #FCC04C 57%, #F78C25 100%);
+background-size: cover;
 }
 
 table {
-  width: 20%;
+  width: 15%;
   height: auto;
-  border: 5px solid black;
+  border-radius: 5px;
   border-collapse: collapse;
+  background-color: #A41000;
+  color: white;
 }
 
 th {
   font-weight: bolder;
+  font-size: 1.5em;
   float: left;
 
 }
 
 tr {
-  border-bottom: solid 5px black;
+  border-bottom: solid 5px rgba(255,255,255,0.2);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -43,19 +49,24 @@ td:nth-child(2) {
   display: block;
   overflow: hidden;
   text-align: center;
-  background-color: yellow;
-padding:5px 10px;
+  padding:5px 10px;
+  color: #A41000;
+  font-family: 'Shojumaru', cursive;
 }
 
 #main-ad {
   position: relative;
 }
 
-#caption {
+#main-ad h2 {
   position: absolute;
-  top: 40%;
-  left: 20%;
-  width: 5%;
+  top: 20%;
+  left: 25%;
+  width: 8%;
+}
+
+#main-ad h2::after {
+  content: " ©";
 }
 
 #main-ad img {
@@ -65,8 +76,9 @@ padding:5px 10px;
 
 #main-ad table {
   position: absolute;
-  left: 80%;
-  top: 50%;
+  left: 75%;
+  top: 30%;
+  z-index: 1;
   display: none;
 }
 #main-ad img:hover ~ table {
@@ -74,9 +86,22 @@ padding:5px 10px;
 
 }
 
+#product-description {
+  width: 45%;
+  float: left;
+  margin-left: 10px
+}
+
+#side-imgs {
+  width: 45%;
+  float: right;
+  margin-right: 10px
+}
+
 #side-imgs img {
-  height: 300px;
+  height: 200px;
   width: auto;
   float: left;
-  margin-right: 10px;
+  margin: 10px;
+  border-radius: 25%;
 }
